@@ -232,8 +232,8 @@ a {
   display: flex;
   justify-content: center; /* Horizontal centering */
   align-items: center; /* Vertical centering */
-  height: 98%; /* Cover the entire viewport height */
-  width: 86%; /* Cover the entire viewport width */
+  height: 95%; /* Cover the entire viewport height */
+  width: 85%; /* Cover the entire viewport width */
   flex-direction: column; /* 這將使其子元素垂直對齊 */
 
 }
