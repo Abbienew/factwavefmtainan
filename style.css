@@ -233,7 +233,7 @@ a {
   justify-content: center; /* Horizontal centering */
   align-items: center; /* Vertical centering */
   height: 100%; /* Cover the entire viewport height */
-  width: 100%; /* Cover the entire viewport width */
+  width: 91%; /* Cover the entire viewport width */
   flex-direction: column; /* 這將使其子元素垂直對齊 */
 
 }
