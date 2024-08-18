@@ -233,6 +233,8 @@ a {
   height: 100%; /* 覆蓋整個視口高度 */
   width: 100%; /* 覆蓋整個視口寬度 */
   z-index: 1; /* 保證它顯示在前面 */
+  background-color: transparent;
+  color: #fff;
 }
 
 .v50_15, .v50_16 {
