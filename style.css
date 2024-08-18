@@ -224,18 +224,13 @@ a {
 	cursor: default;
 }
 
-/*vote section*/
+/* vote section */
 #Phase_D {
-  background-color: transparent;
-  position: fixed;
-  color: #fff;
-  display: flex;
-  justify-content: center; /* Horizontal centering */
-  align-items: center; /* Vertical centering */
-  height: 100%; /* Cover the entire viewport height */
-  width: 100%; /* Cover the entire viewport width */
-  flex-direction: column; /* 這將使其子元素垂直對齊 */
-
+  display: flex; /* 使用Flexbox進行佈局 */
+  justify-content: center; /* 水平置中 */
+  align-items: center; /* 垂直置中 */
+  flex-direction: column; /* 垂直排列子元素 */
+  z-index: 1; /* 保證它顯示在前面 */
 }
 
 .v50_15, .v50_16 {
